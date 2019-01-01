@@ -1,0 +1,320 @@
+﻿body {
+	background-color: #000000;
+	font-family: sans-serif;
+}
+
+header {
+	margin: 25px;
+}
+
+header h1 {
+	font-size: 21pt;
+	color: #FFFFFF;
+}
+
+header p {
+	color: #FFFFFF;
+	/*font-size: 12pt;*/
+}
+
+header img {
+	height: 110px;
+}
+
+nav {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+nav h2 {
+	color: #FFFFFF;
+	padding-left: 60px;
+}
+
+nav p {
+	color: #FFFFFF;
+	/*font-size: 12pt;*/
+	font-style: italic;
+	padding-left: 60px;
+}
+
+ul {
+	padding-left: 80px;
+}
+
+li {
+	padding-bottom: 4px;
+}
+
+li a {
+	color: #0D118B;
+	text-decoration: none;
+	/*font-size: 20pt;*/
+	list-style: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+nav ul {
+	width: 100%;
+}
+
+nav ul li {
+	float: left;
+	margin-right: 20px;
+	background-color: white;
+	border-radius: 8px;
+	list-style: none;
+	text-align: center;
+	width: 200px;
+	padding-top: 5px;
+}
+
+nav:after {
+	clear: both;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+section h1 {
+	color: #000;
+	font-size: 21pt;
+	/* padding-left: 120px; */
+}
+
+section h2 {
+	color: #FFFFFF;
+	font-size: 18pt;
+	text-align: center;
+}
+
+section p {
+	color: #FFFFFF;
+	/*font-size: 14pt;*/
+	width: 80%;
+	margin: 25px;
+	text-align: left;
+}
+
+section img {
+	width: 400px;
+	height: 250px;
+	border-color: #FFFFFF;
+
+	border-style: solid;
+}
+
+.planets {
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	text-align: center;
+}
+
+.planet {
+	min-height: 700px;
+	vertical-align: top;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.planet p {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-content {
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	width: 85%; 
+	margin: 90px 78px;
+	min-height: 400px;
+	padding-top: 10px;
+	vertical-align: top;
+}
+
+#main-content h2 {
+	padding: 14px;
+	color: black;
+}
+
+#main-content p {
+	color: black;
+}
+
+.value {
+	color: green;
+	font-weight: bold;
+}
+
+/* form div {
+	padding: 10px 0px;
+} */
+
+form div label {
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 20px;
+	color: black;
+}
+#alienAge {
+	width: 200px;
+	display: inline;
+	vertical-align: top;
+	padding-left: 20px;
+	color: black;
+}
+
+
+/* form button {
+	text-align: center;
+	margin-left: 224px;
+} */
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+input[type=text], input[type=datetime], textarea {
+	width: 300px;
+}
+
+th, td {
+	 color: black; 
+	
+}
+
+
+table tr:first-child {
+	padding-bottom: 10px;
+	font-size: 1.1em;
+}
+table tr:even{
+	background-color: #D3D3D3;
+}
+
+table td {
+	min-width: 75px;
+	
+}
+
+.last {
+	
+}
+section.centeredPanel {
+	clear: both;
+	display: block;
+	width: 80%;
+	vertical-align: top;
+	min-height: 450px;
+	background-color: #FFF;
+	border-radius: 7px;
+	margin-left: 60px;
+	margin-top: 60px;
+}
+
+section.centeredPanel h2 {
+	color: #000000;
+	text-align: center;
+}
+
+section.centeredPanel p {
+	color: #000;
+	text-align: left;
+}
+
+.centered {
+	text-align: center;
+	display: block;
+}
+
+/* Calculator Result */
+section#calculatorResult img {
+	float: left;
+}
+
+section#calculatorResult h2 {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+/* Space Forum Posts */
+.posts {
+	padding: 10px;
+}
+
+.posts .post {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.posts .post * {
+	color: #000;
+	margin: 0;
+}
+
+.posts .post h4 {
+	padding-top: 5px;
+}
+
+.posts .post p.message {
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.posts .post:nth-child(2n) {
+	background-color: lightgray;
+}
+
+.copyright {
+	color: white;
+	text-align: center;
+}
+
+#detailImg{
+	padding:50px;
+	width: 1050px;
+	height: 600px;
+	border-color: #FFFFFF;
+	border-width: 8px;
+	border-style: solid;
+	max-width:90%;
+
+	
+}
